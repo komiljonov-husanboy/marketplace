@@ -14,8 +14,8 @@
 <nav class="  hidden lg:flex items-center justify-center gap-[30px] text-white font-semibold text-4 leading-[140%]  ">
     <a href="#">Marketplace</a>
     <a href="#">Rankings</a>
-    <a href="#">Connect a wallet</a>
-    <button class="flex items-center justify-center gap-3 bg-[#A259FF] py-[19px] px-[30px] rounded-3xl"> <img src="./images/User.png" alt=""> Sign Up</button>
+    <a href="wallet.html">Connect a wallet</a>
+    <button class="flex items-center justify-center gap-3 bg-[#A259FF] py-[19px] px-[30px] rounded-3xl"> <img src="./images/User.png" alt=""><a href="account.html"> Sign Up</a></button>
 </nav>
 <img class="block lg:hidden" src="./images/Burger Menu.png" alt="">
 </header>
@@ -45,7 +45,7 @@
                 </ul>
             </div>
         </div> 
-        <div class=" mx-auto md:mx-[0px] w-[315px] sm:w-[330px] lg:w-[510px] h-[315px] sm:h-[330px] lg:h-[510px] rounded-3xl bg-[#3B3B3B] text-start " >
+        <div class=" mx-auto md:mx-[0px] w-[315px] sm:w-[350px] lg:w-[490px] h-[315px] sm:h-[350px] lg:h-[510px] rounded-3xl bg-[#3B3B3B] text-start " >
             <div class="  h-[210px] lg:h-[401px] w-[100%] flex block"> 
                 <img class="rounded-t-2xl" src="./images/hero.png" width="510" height="410"  alt="">
             </div>
@@ -460,8 +460,8 @@
    </section>
 </main>
 <footer class="py-[40px] bg-[#3B3B3B]">
-    <div class="containers " >
-        <ul class=" flex   gap-10  items-center text-start px-3">
+    <div class="containers  px-[10px] sm:px-[50px] " >
+        <ul class="   flex-col md:flex-row   flex   gap-10  items-start md:items-center text-start px-3">
             <li class="flex-col flex gap-3">
                <img class="pb-[20px]" width="199" height="19" src="./images/logo.svg" alt="Logo">
                 <p class="text-[16px] text-[#CCCCCC] leading-[140%]">NFT marketplace UI created with Anima for Figma.</p>
@@ -485,22 +485,23 @@
                 <p class="text-4 leading-[140%] text-[#CCCCCC]">
                     Get exclusive promotions & updates straight to your inbox.
                 </p>
-                
-             <form class=" py-[19px] sm:py-[0px] px-[60%] sm:px-[0px]  bg-white text-[#2b2b2b] flex items-center justify-center lg:justify-end  rounded-3xl" action="">
-                <input type="email" name="email" placeholder="Enter your email here">
+                 
+             <form class="  w-[90%] sm:width-[100%] py-[19px] sm:py-[0px]  sm:px-[0px]  bg-white text-[#2b2b2b] grid grid-cols-2
+              items-center justify-center lg:justify-end  rounded-3xl" action="">
+                <input class=" "  type="email" name="email" placeholder="Enter your email here">
                 <button class="  hidden sm:flex py-[19px] px-[50px] bg-[#A259FF] text-white text-4 flex gap-3 rounded-3xl "> 
                     <img src="./images/EnvelopeSimple.png" width="20" height="20" alt="Mail icon">
                      Subscribe
                 </button>
              </form>
-             <button class=" flex sm:hidden py-[19px] px-[50px] bg-[#A259FF] text-white text-4  gap-3 rounded-3xl "> 
+             <button class="justify-center w-[90%] flex sm:hidden py-[19px] px-[50px] bg-[#A259FF] text-white text-4  gap-3 rounded-3xl "> 
                     <img src="./images/EnvelopeSimple.png" width="20" height="20" alt="Mail icon">
                      Subscribe
                 </button>
             </li>
         </ul>
         <hr class="text-[#858584] mt-[30px]">
-            <p class="mt-[20px] text-[#CCCCCC] text-3">Ⓒ NFT Market. Use this template freely.</p>
+            <p class="mt-[20px] text-[#CCCCCC] text-3 ">Ⓒ NFT Market. Use this template freely.</p>
     </div>
 
 </footer>
